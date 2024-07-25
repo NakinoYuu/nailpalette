@@ -1,0 +1,14 @@
+.research {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  position: fixed;
+  left: 85%;
+  .researchIcon {
+    font-size: 1.8rem;
+    position: relative;
+    top: 0.6rem;
+    right: 3rem;
+    color: #f3f1ff;
+  }
+}

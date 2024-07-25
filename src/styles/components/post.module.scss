@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  background-color: #f3f1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.1rem;
+
+  .post {
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+
+    .postHeader {
+      width: 90%;
+      height: 5rem;
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+
+      .userIcon {
+        & img {
+          width: 5rem;
+          height: 5rem;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .username {
+        font-size: 1.4rem;
+        color: #3f3f3f;
+      }
+    }
+
+    .postContent {
+      width: 90%;
+      height: 30rem;
+      overflow-x: auto;
+      display: flex;
+
+      & img {
+        flex: 0 0 auto; /* 固定サイズでフレックスアイテムとして配置 */
+        width: 100%;
+        height: 100%;
+        // border: 1px solid #000;
+        border-radius: 15px;
+        object-fit: cover;
+      }
+    }
+
+    .commentText {
+      width: 90%;
+      height: 3rem;
+    }
+    .postFooter {
+      width: 90%;
+      height: auto;
+      // border: 1px solid #ff0505;
+      display: flex;
+      justify-content: space-between;
+      margin: 1.5rem 0;
+
+      .buttonsLeft {
+        display: flex;
+        & > *:not(:last-child) {
+          margin-right: 2rem;
+        }
+        .fontIcon {
+          font-size: 2rem;
+          color: #3f3f3f;
+        }
+      }
+      .buttonsRight {
+        display: flex;
+        & > *:not(:last-child) {
+          margin-right: 2rem;
+        }
+
+        .fontIcon {
+          font-size: 2rem;
+          color: #3f3f3f;
+        }
+      }
+    }
+    .commentText {
+      font-size: 1.4rem;
+      width: 90%;
+      height: auto;
+      color: #3f3f3f;
+    }
+  }
+}

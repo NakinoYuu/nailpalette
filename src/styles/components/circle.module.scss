@@ -1,0 +1,14 @@
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    #8c51d7 0%,
+    rgba(140, 81, 215, 0.8) 40%,
+    rgba(140, 81, 215, 0.6) 75%,
+    white 100%
+  );
+  border: 1px solid #fff;
+  margin-top: 1.5rem;
+}

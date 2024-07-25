@@ -1,0 +1,23 @@
+.Wrapper {
+  background: #f3f1ff;
+  height: 205vh; // 全画面表示に変更
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .top {
+    margin-top: 5.5rem; // ヘッダーの高さ分のマージンを追加
+    display: flex;
+    text-align: center;
+    padding: 0 2rem;
+    .title {
+      font-size: 1.6rem;
+      color: #8c51d7;
+      font-weight: 500;
+      margin-top: 2rem;
+    }
+  }
+  .PostScroll {
+    height: auto;
+  }
+}

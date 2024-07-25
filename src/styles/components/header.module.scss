@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.5rem;
+  background: #f3f1ff;
+  z-index: 10; // 他のコンテンツの前に表示
+  display: flex;
+  align-items: center; // 垂直方向の中央に配置
+  justify-content: space-between; // 水平方向の両端に配置
+  padding: 0 1rem; // 横方向のパディングを追加
+}
